@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python app/tests.py
+        python -m app.tests
 
     - name: Simulate deployment
       run: echo "Deploying to production (simulated)..."
